@@ -17,10 +17,13 @@ Honours Computer Science + Statistics minor at the University of Waterloo. Curre
 
 ## Tech stack
 
-**Languages:** C++, Python, TypeScript
-**Backend:** FastAPI, PostgreSQL, pybind11
-**Frontend:** Next.js, React
-**Systems:** Apple Metal (GPU compute), SIMD, multithreading
+**Languages:** C++, Python, TypeScript / JavaScript, Java, SQL
+**Backend:** FastAPI, Node.js, Flask, Django, GraphQL, pybind11
+**Frontend:** Next.js, React, React Router, Tailwind CSS
+**AI / ML:** LLM APIs (OpenAI, Anthropic, Gemini), LangChain, RAG, Vector Embeddings, Pandas, NumPy, TensorFlow, scikit-learn
+**Data & Cloud:** PostgreSQL, SQLite, Neo4j, Pinecone, Redis, AWS (EC2), Azure, Docker, Vercel, GitHub Actions / CI/CD
+**Systems:** Apple Metal (GPU compute), SIMD / NEON, multithreading
+**Tools:** Git, Linux, Bash, Playwright, Jest, Postman
 
 ## Currently
 
