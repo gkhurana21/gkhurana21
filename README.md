@@ -25,7 +25,7 @@ Honours Computer Science + Statistics minor at the University of Waterloo. Curre
 ## Currently
 
 - Technical Systems Analyst co-op @ RBC, Toronto
-- Seeking Fall 2026 co-op in quant dev / trading systems / fintech
+- Seeking Fall 2026 co-op in software engineering / quant dev / trading systems / fintech
 
 ## Contact
 
