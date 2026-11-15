@@ -21,4 +21,5 @@ I build systems where speed and correctness both matter: pricing engines, tradin
 
 - Developer @ RBC Wealth Management, Toronto
 - Looking for **Summer 2027** co-op: quant dev, trading systems, software engineering
-- Elite & President's Scholarship ($50K)
+- Elite & President's Scholarship ($50K) · Group I Distinction, Euclid Mathematics Contest
+- Bloomberg Market Concepts (BMC) certificate · Level I Candidate in the CFA Program
