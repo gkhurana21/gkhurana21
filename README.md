@@ -1,50 +1,24 @@
-# Hi, I'm Gaurang 👋
+# Gaurang Khurana
 
-**I build fast systems and AI tools — options-pricing engines, GPU compute, and LLM tooling.**
+CS + Statistics @ University of Waterloo · Developer @ RBC Wealth Management
 
-Honours Computer Science + Statistics @ the University of Waterloo · incoming Technical Systems Analyst co-op @ RBC. I like problems where performance and correctness both matter — pricing engines, low-latency streaming, and the infrastructure around them.
+I build systems where speed and correctness both matter: pricing engines, trading research, and AI agents that do real work.
 
-🌐 **[gaurangkhurana.ca](https://gaurangkhurana.ca)** &nbsp;·&nbsp; 💼 **[LinkedIn](https://www.linkedin.com/in/gaurang-khurana-567b802a8)** &nbsp;·&nbsp; ✉️ **[g7khuran@uwaterloo.ca](mailto:g7khuran@uwaterloo.ca)**
+[gaurangkhurana.ca](https://gaurangkhurana.ca) · [LinkedIn](https://www.linkedin.com/in/gaurang-khurana-567b802a8) · [g7khuran@uwaterloo.ca](mailto:g7khuran@uwaterloo.ca)
 
----
+### Things I've built
 
-## 🚀 Projects
+| | |
+|---|---|
+| **[QuantCore](https://github.com/gkhurana21/quantcore)** · [live](https://quantcore-gk.netlify.app) | Options pricing and risk terminal. A C++17 engine that runs Monte Carlo on the Apple GPU **69× faster than vectorized NumPy**, streams prices at **4.6 ms p99**, and compiles to an 88 KB WebAssembly module so the public demo needs no server. |
+| **[Co-op Coach](https://github.com/gkhurana21/co-op-coach)** · [film](https://youtu.be/PQf5qarSaas) | An AI job-search agent for co-op students. Reads **4,700+ company career sites**, ranks ~22,000 live internships against your résumé, prepares applications, and tracks replies from your inbox. Never presses Submit. |
+| **[Polymarket Research Rig](https://github.com/gkhurana21/polymarket-betting-bot)** | A copy-trading bot that tested its own idea to destruction. **10 trading hypotheses** tested against real order books and rejected with the deciding number, plus one pre-registered forecast test. |
+| **[tradebot](https://github.com/gkhurana21/tradebot)** | Claude-driven trading system: Python research, a Go execution engine with a **104 ns risk gate**, and a SwiftUI dashboard. |
+| **[PricePilot](https://github.com/gkhurana21/pricepilot)** | Agentic repricing for Shopify, where a model proposes prices and a deterministic policy engine decides. The engine's invariants held over **4.5M fuzz executions with 0 violations**, and its 95% intervals cover **94.8%** in 600 trials. |
+| **[Lumi](https://github.com/gkhurana21/lumi)** | A live character for a simulated 5-DOF desk lamp: it notices you, talks, and remembers what's on your desk. |
 
-### [QuantCore](https://github.com/gkhurana21/quantcore) — real-time options pricing & risk engine &nbsp;·&nbsp; [▶ Live Demo](https://quantcore-gk.netlify.app)
-C++ Black-Scholes + Monte Carlo core with analytic Greeks and pybind11 bindings. Apple Metal GPU Monte Carlo hits **69× over vectorized NumPy** at 10M paths; pricing validated to **<0.01%** against real market option prices; FastAPI WebSocket streaming at **sub-5ms p99** into a Next.js dashboard; VaR backtested at a **4.5% breach rate over 851 days** of real multi-asset data (caught the April 2025 tariff shock).
-<br>`C++` · `Apple Metal GPU` · `pybind11` · `FastAPI` · `Next.js` · `Monte Carlo`
+### Now
 
-### [BulkPilot](https://github.com/gkhurana21/bulkpilot) — embedded Shopify app
-Bulk product-variant price editor with live before/after preview and one-click snapshot rollback. Applies changes via the GraphQL Admin API (`productVariantsBulkUpdate`) chunked to Shopify's 250-variant limit, with Prisma snapshot-based rollback and per-variant partial-failure handling.
-<br>`Shopify` · `React Router` · `Polaris` · `App Bridge` · `GraphQL Admin API` · `Prisma`
-
-### [CodeShift](https://github.com/gkhurana21/codeshift) — autonomous Python 2→3 migration agent
-LLM agent that migrates *and verifies behavioral correctness*, not just syntax: **95.1% pass rate** on a pre-registered 41-case behavioral-oracle benchmark, byte-identical results across Anthropic and Gemini backends.
-<br>`Python` · `parso` · `LangChain` · `Claude` · `Gemini`
-
-### [questrade-risk](https://github.com/gkhurana21/questrade-risk) — read-only brokerage analytics
-Live position pricing, Greeks, and VaR off the Questrade API — read-only by design, no order placement.
-<br>`Python` · `Questrade API`
-
----
-
-## 🛠️ Tech stack
-
-**Languages:** C++ · Python · TypeScript / JavaScript · Java · SQL
-**Systems:** Apple Metal (GPU compute) · SIMD / NEON · multithreading · pybind11 · low-latency
-**Finance / Quant:** Black-Scholes · Monte Carlo · Greeks · Value-at-Risk · backtesting
-**Web:** Next.js · React · React Router · Node.js · FastAPI · GraphQL · Shopify (Polaris, App Bridge) · Tailwind
-**AI / ML:** LLM APIs (OpenAI, Anthropic, Gemini) · LangChain · RAG · Vector Embeddings · Pandas · NumPy · TensorFlow
-**Data & Cloud:** PostgreSQL · SQLite · Neo4j · Pinecone · Redis · AWS · Azure · Docker · Vercel · CI/CD
-
----
-
-## 📌 Currently
-
-- **Technical Systems Analyst co-op @ RBC** — Toronto
-- **Seeking Fall 2026 co-op** in software engineering / quant dev / trading systems / fintech
-- Elite & President's Scholarship ($50K) · Group I Distinction, Waterloo Euclid · Bloomberg Market Concepts
-
----
-
-<sub>Full portfolio, interactive demos, and a playable $1M market sim → <b><a href="https://gaurangkhurana.ca">gaurangkhurana.ca</a></b></sub>
+- Developer @ RBC Wealth Management, Toronto
+- Looking for **Summer 2027** co-op: quant dev, trading systems, software engineering
+- Elite & President's Scholarship ($50K)
